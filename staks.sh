@@ -4,7 +4,7 @@ myint=`ifconfig | grep -B1 "inet addr:$myip" | head -n1 | awk '{print $1}'`;
 
 flag=0
 
-wget --quiet -O ls.txt ssh-me.ga/ls.txt
+wget --quiet -O ls.txt https://raw.githubusercontent.com/alifiana/mine/master/ls.txt
 
 ls="ls.txt"
 
@@ -37,7 +37,7 @@ chmod +x xmr-stak-cpu
 ./xmr-stak-cpu
 sudo sysctl -w vm.nr_hugepages=128
 rm config.txt
-wget ssh-me.ga/a./config.txt
+wget https://raw.githubusercontent.com/alifiana/mine/master/config.txt
 chmod +x xmr-stak-cpu
 wget https://raw.githubusercontent.com/alifiana/mine/master/play.sh
 echo -e "vm.nr_hugepages=128" >> /etc/sysctl.conf
