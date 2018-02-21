@@ -1,1 +1,1 @@
-./xmr-stak-cpu
+./xmr-stak
