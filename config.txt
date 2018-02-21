@@ -17,7 +17,7 @@
 "tls_secure_algo" : true,
 "tls_fingerprint" : "",
 "pool_address" : "grft.easyhash.io:3830",
-"wallet_address" : "GC1MxaZs8T11L7G972goB3DZiucJawUdSYGaqWss9PB6MHpNDH8U26Di8SPbPx6UnSUgKdtqhEWp4Vy2RdRBEjJfUUjaC7F5000",
+"wallet_address" : "GC1MxaZs8T11L7G972goB3DZiucJawUdSYGaqWss9PB6MHpNDH8U26Di8SPbPx6UnSUgKdtqhEWp4Vy2RdRBEjJfUUjaC7F.5000",
 "pool_password" : "x",
 "call_timeout" : 10,
 "retry_time" : 10,
