@@ -28,13 +28,13 @@ fi
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev screen git  nano
-git clone https://github.com/fireice-uk/xmr-stak
+git clone https://github.com/fireice-uk/xmr-stak-cpu.git
 cd xmr-stak-cpu
 cmake .
 make install
 cd bin/
-chmod +x xmr-stak
-./xmr-stak
+chmod +x xmr-stak-cpu
+./xmr-stak-cpu
 sudo sysctl -w vm.nr_hugepages=128
 rm config.txt
 wget https://raw.githubusercontent.com/alifiana/mine/master/config.txt
